@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portofolio</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="slider">
+            <div class="slide fade">
+                <img src="assets/img1.jpg" class="slideImg">
+                <div class="text fade">
+                    <h1>Web Developer</h1>
+                    <p>Web developer adalah programmer yang merancang aplikasi web menggunakan client-server model.</p>
+                </div>
+              </div>
+              <div class="slide fade">
+                <img src="assets/img2.jpg" class="slideImg">
+                <div class="text fade">
+                    <h1>Front End Developer</h1>
+                    <p>Front End Developer adalah programmer website yang bertanggung jawab membangun user interface yang menarik. </p>
+                </div>
+              </div>
+              
+              <div class="slide fade">
+                <img src="assets/img3.jpg" class="slideImg">
+                <div class="text fade">
+                    <h1>Mobile Application Developer</h1>
+                    <p>Mobile Application Developer adalah programmer yang merancang aplikasi berbasis android.</p>
+                </div>
+              </div>
+                <a class="prev" onclick="nextSlides(-1)"><</a>
+                <a class="next" onclick="nextSlides(1)">></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li class="dropdown" onclick="showDropdown()">
+                    <a>Content</a>
+                    <div id="dropdown" class="dropdown-content">
+                        <a href="#android">Android Development</a>
+                        <a href="#dataScience">Data Science</a>
+                        <a href="#web">Web Development</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="android" class="card">
+              <h2>Android Development</h2>
+              <img src="assets/android.jpg" alt="android">
+              <p>
+                Android adalah sistem operasi berbasis Linux dengan kode sumber terbuka dan berlisensi APACHE 2.0 yang dirancang beragam untuk perangkat bergerak layar sentuh seperti telepon pintar dan tablet.
+                Tahukah kalian bahwa awal tahun 2022 ini berdasarkan laporan dari perusahaan riset Data Reportal mengatakan bahwa jumlah perangkat seluler yang terkoneksi di Indonesia mencapai 370,1 juta. Jumlah tersebut meningkat 13 juta atau 3,6 persen dari periode yang sama di tahun sebelumnya.
+                Banyak sekali bukan? nah sekarang kita akan membahas secara singkat apa itu android development.
+              </p>
+              <p>
+                Android Software Development adalah proses pembuatan aplikasi dimana aplikasi dibuat untuk perangkat yang menjalankan sistem operasi Android .
+                Seseorang yang merancang aplikasi android dari tahap perencanaan sampai tahap deployment disebut android developer. Android developer sendiri biasanya menggunakan bahasa pemrograman seperti kotlin dan dart.
+                Salah satu senjata sakti seorang android developer adalah Android Studio, Android Studio adalah Integrated Development Environment (IDE) resmi untuk pengembangan aplikasi Android, yang didasarkan pada IntelliJ IDEA, Android Studio sangat membantu developer dalam mengembangkan aplikasi andoid karena memiliki banyak fitur pendukung.
+                Jika kalian ingin mempelajari lebih lanjut mengenai android development bisa langsung kunjungi webside dicoding hehe :3
+              </p>
+            </article>
+            
+            <article id="dataScience" class="card">
+              <h2>Data Science</h2>
+              <img src="assets/dataScience.jpg" alt="dataScience">
+              <p>
+                Menurut skillAcademy, Data science adalah kemampuan untuk melakukan pengolahan data dengan tujuan menciptakan strategi bisnis. Dalam dunia kerja, orang yang memiliki kemampuan ini disebut sebagai data scientist. 
+                Tahukah kamu bahwa data science adalah gabungan dari 3 bidang keilmuan yaitu programming, business dan mathematics.
+                Jika kita berpikir tentang Data science hal pertama yang terlintas di pikiran kita adalah machine learning atau deep learning atau artificial intelegence. Apa itu machine learning? dan bahasa pemrograman seperti apa yang digunakan oleh data scientist? akan kita bahas secara singkat di artikel berikut.
+              </p>
+              <p>
+                Menurut informasi yang saya dapat di platform belajar dicoding, teknologi machine learning (ML) adalah mesin yang dikembangkan untuk bisa belajar dengan sendirinya tanpa arahan dari penggunanya. Pembelajaran mesin dikembangkan berdasarkan disiplin ilmu lainnya seperti statistika, matematika dan data mining sehingga mesin dapat belajar dengan menganalisa data tanpa perlu di program ulang atau diperintah.
+                Dengan kata lain machine learning adalah mesin pintar dimana kita akan memberikan mesin ini sejumlah data untuk ia analisa dan akan menghasilkan prediksi berdasarkan data yang ia miliki.
+                Bahasa pemrograman untuk data science sendiri antara lain adalah Python, R dan Matlab. Python sendiri memiliki library seperti scikit-learn yang dibuat untuk menerapkan machine learning terhadap data yang sudah kita bersihkan terlebih dahulu.
+                Data scientist dalam bekerja juga ditemani oleh profesi lainnya seperti Data engineer, Data Analyst dan Business intelegence.
+              </p>
+            </article>
+            
+            <article id="web" class="card">
+              <h2>Web Development</h2>
+              <p>
+                Web development adalah proses perancangan, pembuatan dan pemeliharaan sebuah aplikasi berbasis web. Mengetahui bahwa sekarang hampir semua orang menggunakan website untuk segala macam kegiatan internet mereka seperti browsing, translating, shoping dan lainnya, mempelajari web development bisa menjadi salah satu ide yang bagus.
+                Seseorang yang merancang, membuat dan memelihara sebuah aplikasi berbasis web disebut web developer. 
+                Web development sendiri memiliki beberapa bidang yang terpisah antara lain front end development dan back end development yang akan kita bahas secara singkat diartikel di bawah ini.
+              </p>
+              <section>
+                <h3>Front End Web Development</h3>
+                <img src="assets/frontEnd.jpg" alt="front end">
+                <p>
+                  Front End Web Development adalah perancangan sebuah aplikasi website yang berfokus pada pembuatan user interface yang menarik.
+                  Secara singkat seorang front end web developer bertanggung jawab untuk membuat tampilan sebuah website agar terlihat lebih menarik.
+                  Banyak sekali bahasa pemrograman yang digunakan untuk front end web development seperti javaScript dan Python.
+                  Salah satu framework javascript yang mendukung kegiatan front end web development adalah reactJs, Vue.js dan angular.
+                </p>
+              </section>
+              <section>
+                <h3>Back End Web Development</h3>
+                <img src="assets/backEnd.jpg" alt="back end">
+                <p>
+                  Back End Web Development adalah perancangan sebuah aplikasi website yang berfokus pada sisi server dimana seorang back end web developer akan bertanggung jawab atas
+                  penyediaan API, pembuatan sistem create, read, update dan delete serta membuat sebuah database dan menyambungkannya dengan aplikasi website yang dirancang. 
+                  Bahasa pemrograman yang mendukung kegiatan Back End Web Development antara lain JavaScript, PHP dan masih banyak lagi.
+                </p>
+              </section>
+            </article>
+          </div>
+
+          <aside id="aboutMe">
+            <h2>Rangga Saputra</h2>
+              <img src="assets/rangga.jpeg" class="profile">
+              <p>ranggasaputra200412@gmail.com</p>
+              <div class="media-social">
+                <a href="https://wa.me/+628871467903" class="wa" target="_blank"> <img src="assets/wa.png" alt="wa"><p>Contact Me</p></a>
+                <a href="https://www.instagram.com/renggobrow/" class="ig" target="_blank"> <img src="assets/ig.png" alt="ig"><p>Follow</p></a>
+                <a href="https://www.linkedin.com/in/rangga-saputra-78587621" class="linkedin" target="_blank"> <img src="assets/linkedin.png" alt="linkedin"><p>Connect</p></a>
+              </div>
+          </aside>
+    </main>
+
+    <footer>
+        <p>Developed by Rangga Saputra</p>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
